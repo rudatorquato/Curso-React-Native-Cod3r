@@ -17,12 +17,10 @@ export default props => {
 */}
 
 export default props => (
-    //ou <>
-    <React.Fragment> 
+    <React.Fragment /* <> */> 
 
         <Text style={Estilo.txtG}>{props.principal} </Text>
         <Text>{props.secundario} </Text>
 
-    </React.Fragment> 
-    // ou </>
+    </React.Fragment> /* </> */
 )
