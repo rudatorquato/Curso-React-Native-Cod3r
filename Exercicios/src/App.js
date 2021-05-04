@@ -1,7 +1,8 @@
 import React from 'react'
 import {  StyleSheet, SafeAreaView } from 'react-native'
   
-import FlecBoxV2 from './components/layout/FlexBoxV2'
+import FlecBoxV3 from './components/layout/FlexBoxV3'
+//import FlecBoxV2 from './components/layout/FlexBoxV2'
 //import FlecBoxV1 from './components/layout/FlexBoxV1'
 //import Quadrado from './components/layout/Quadrado'
 //import DigiteSeuNome from './components/DigiteSeuNome'
@@ -26,8 +27,9 @@ import FlecBoxV2 from './components/layout/FlexBoxV2'
 export default () => (
     <SafeAreaView style={style.App}>
 
-        <FlecBoxV2/>
+        <FlecBoxV3/>
         {/*
+        <FlecBoxV2/>
         <FlecBoxV1/>
         <Quadrado />
         <Quadrado color='#900'/>
