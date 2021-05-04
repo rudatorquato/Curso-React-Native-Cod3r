@@ -7,7 +7,8 @@ export default class Mega extends React.Component{
     render(){
         return(
             <Text style={Estilo.txtG}>
-                Gerador de Mega-Sena
+                Gerador de Mega-Sena 
+                {this.props.qtdeNumeros}
             </Text>
         )
     }
